@@ -1,0 +1,51 @@
+.flex-container {
+    width:100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(235, 235, 238);
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+div.bloque1 {
+    width: 200px;
+    height: 5000 px;
+    border: 1px;
+    margin: 5 px;
+    border-style: solid;
+    border-color: #21d121;
+    background-color: hwb(120 6% 16%);
+    margin-left: 0 px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+    }
+div.bloque2 {
+        width: 753px;
+        height: 150px;
+        border: 2px;
+        margin: 5px;
+        background-color: hwb(41 20% 73%);
+        border-style: solid;
+        border-color: 
+        margin-left: 7 px;
+        margin-right: 0px;
+        margin-bottom: 7px;
+        margin-top: 0px;
+ }
+ div.bloque3 {
+    width: 753px;
+    height: 150px;
+    border: 2px;
+    margin: 5px;
+    background-color: hwb(41 20% 73%);
+    border-style: solid;
+    border-color: 
+    margin-left: 7 px;
+    margin-right: 0px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+
+         
+

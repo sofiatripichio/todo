@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(240, 215, 208);
+    
+}
+div{
+    font-size:small;
+    background-color:rgb(255, 253, 252) ;
+    color:rgb(180, 149, 131);
+    height:100 px;
+    width: 150 px;
+
+}
+div >p {
+    color:rgb(88, 74, 71);
+ }
+    
+div + h2 {
+    background-color:red; }
+p ~ h2{
+    background-color: rgb(212, 174, 103); }
+div {
+    border: solid; }
+.hover:hover{
+    color:crimson;
+    background-color: blueviolet;
+    cursor: pointer;
+} 
+.enlace:active{
+    background-color: black;
+    color: aqua;
+}
+
+.link:link{
+    color:black;
+    background-color: brown;
+}
+.enlace:visited{
+    color:aqua;
+    background-color: rgb(119, 95, 77);
+}
+

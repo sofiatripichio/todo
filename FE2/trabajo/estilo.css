@@ -1,0 +1,56 @@
+div.titulo{
+    color:rgb(216, 185, 175);
+    text-align: center;
+    font-size:xx-large;
+    background-color: beige;
+    
+
+}
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+}
+.caja1{
+    margin: 10px;
+    width: 400px;
+    height: 350px;
+  
+}
+.caja2{  margin-right: 10px;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+   
+}
+.caja3{  margin-right: 10px;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border: 2px black;
+    text-align: left;
+}
+h2, h3{
+    color: rgb(175, 151, 120);
+}
+ul, p{
+    color: rgb(119, 105, 86);
+    font-style: italic;
+}
+ol{
+    font-style: normal;
+}
+h4 {
+    color:rgb(150, 95, 74)
+}
+.enlace:hover{
+    color: darkgreen;
+    background-color: beige;
+}
+.enlace:visited{
+    color:brown;
+    background-color: rgb(119, 95, 77);
+}
+.enlace{
+    color: rgb(132, 146, 134);
+}
