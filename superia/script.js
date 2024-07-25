@@ -1,5 +1,5 @@
-// Definir productos y stock
-const productos = [
+
+productos = [
     { nombre: "Producto 1", precio: 10, stock: 5 },
     { nombre: "Producto 2", precio: 15, stock: 3 },
     { nombre: "Producto 3", precio: 20, stock: 2 },
@@ -26,7 +26,7 @@ buyButton.addEventListener('click', () => {
     let error = false;
 
     productos.forEach((producto, index) => {
-        const cantidad = parseInt((document.getElementById(`cantidad-${index}`) as HTMLInputElement).value);
+        const cantidad = parseInt((document.getElementById(`cantidad-${index}`).value);
         if (cantidad < 0 || cantidad > producto.stock) {
             error = true;
         } else {

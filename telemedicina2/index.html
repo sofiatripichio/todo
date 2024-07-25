@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Consulta Médica</title>
+</head>
+<body>
+  <h1>Formulario de Consulta Médica</h1>
+  <form id="consultaForm" action="procesar_formulario.php" method="post">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+
+    <!-- Otros campos del formulario (fecha de nacimiento, dni, teléfono, dirección, etc.) -->
+
+    <label for="sexo">Sexo:</label><br>
+    <input type="radio" id="sexoFemenino" name="sexo" value="Femenino" required>
+    <label for="sexoFemenino">Femenino</label>
+    <input type="radio" id="sexoMasculino" name="sexo" value="Masculino" required>
+    <label for="sexoMasculino">Masculino</label><br><br>
+
+    <label for="motivoConsulta">Motivo de consulta:</label><br>
+    <textarea id="motivoConsulta" name="motivoConsulta" rows="4" cols="50" required></textarea><br><br>
+
+    <!-- Preguntas sobre enfermedades -->
+
+    <label for="medicoCabecera">¿Tiene un médico de cabecera?</label><br>
+    <input type="radio" id="medicoSi" name="medicoCabecera" value="si" required>
+    <label for="medicoSi">Sí</label>
+    <input type="radio" id="medicoNo" name="medicoCabecera" value="no" required>
+    <label for="medicoNo">No</label><br><br>
+
+    <div id="detalleMedico" style="display: none;">
+      <label for="nombreMedico">Nombre y Apellido del Médico:</label><br>
+      <input type="text" id="nombreMedico" name="nombreMedico"><br><br>
+
+      <label for="telefonoMedico">Teléfono del Médico:</label><br>
+      <input type="text" id="telefonoMedico" name="telefonoMedico"><br><br>
+    </div>
+
+    <label for="alergiaFarmacos">¿Tiene alguna alergia a fármacos?</label><br>
+    <input type="radio" id="alergiaSi" name="alergiaFarmacos" value="si" required>
+    <label for="alergiaSi">Sí</label>
+    <input type="radio" id="alergiaNo" name="alergiaFarmacos" value="no" required>
+    <label for="alergiaNo">No</label><br><br>
+
+    <button type="submit">Cargar Información</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
