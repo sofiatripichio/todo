@@ -1,0 +1,95 @@
+
+header {
+    background-color: #c7a28a;
+    color: #fff;
+    padding: 10px 0;
+    font-size: large;
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #c7a28a;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+div.titulo{
+    color:#c7a28a;
+    text-align: center;
+    font-size:larger;
+    background-color:white;
+    height: 60px;
+    
+}
+form label {
+    margin-top: 0.5rem;
+}
+.contenedorProductos{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.producto {
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 10px;
+        width: 260px;
+        height: 320px;
+        background-color:white;
+        border: solid #aa988a;
+        color:#766a61;
+        padding: 20px;
+        border-radius: 20px;  
+}
+.producto-imagen{
+    width: 150px;
+    height: 150px;
+}
+.producto-imagen:hover{
+    transform: scale(1.1);
+}
+
+/* Estilos para el nombre del producto */
+.producto-nombre {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Estilos para las etiquetas de cantidad */
+.producto-label {
+    margin-top: 0.5rem;
+    display: block;
+}
+
+/* Estilos para los inputs de cantidad */
+.producto-input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
